@@ -1,0 +1,21 @@
+<html>
+<head><title>  trocar figura passando o mouse.</title>
+<script> 
+
+function mouseEmCima(imagem)
+{
+imagem.src="among.png";
+}
+function mouseFora(imagem)
+{
+imagem.src="76e.jpg";
+}
+</script>
+</head>
+<body>
+Passe o mouse sobre a imagem: <br><br>
+<img src="among.png" onclick="mouseEmCima(this)" width="300" height="300" onmouseover="this" onmouseleave="mouseFora(this)">
+<br><br>
+
+</body>
+</html>
